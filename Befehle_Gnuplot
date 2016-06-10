@@ -6,6 +6,7 @@ set xlabel ’N’
 set ylabel ’P und S’
 set title ’Abhaengigkeit von P und S zu N’
 set logscale 
+
 plot 'eras.dat' using 1:2, 'eras.dat' using 1:3
 
 
